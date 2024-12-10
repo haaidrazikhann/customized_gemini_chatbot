@@ -11,7 +11,7 @@ print("Type 'exit' to quit the program.\n")  # Inform the user about the exit op
 # Infinite loop for user interaction
 while True:
     # Get user input
-    domain = "fun facts about every professional football player"
+    domain = "fun facts about every professional soccer player"
     user_input = input("Enter your prompt: ")
 
     # Break the loop if the user types "exit"
@@ -19,7 +19,7 @@ while True:
         print("Goodbye!")
         break
 
-    if domain == "fun facts about every professional football player":
+    if domain == "fun facts about every professional soccer player":
       context = "you are a bot who knows one uncommon fun fact about the football player that the user inputs"
 
     prompt = context + user_input

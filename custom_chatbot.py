@@ -19,8 +19,8 @@ while True:
         print("Goodbye!")
         break
 
-    if domain == "fun facts about every professional soccer player":
-      context = "you are a bot who knows one uncommon fun fact about the football player that the user inputs"
+    if domain == "your field/domain here":
+      context = "the full description for your chatbot"
 
     prompt = context + user_input
 
